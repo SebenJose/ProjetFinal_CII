@@ -241,8 +241,8 @@ void menuLocacaoCarros()
         printf("\t========== %sLOCAÇÃO DE CARROS%s ==========\n", BLUFG, RESET);
         printf("\t%s[1]%s - Vizualizar locações.\n", WHTBG, RESET);
         printf("\t%s[2]%s - Incluir locações.\n", WHTBG, RESET);
-        printf("\t%S[3]%s - Dar baixa locações.\n", WHTBG, RESET);
-        printf("\t%s[0]%s - Voltar.\n");
+        printf("\t%s[3]%s - Dar baixa locações.\n", WHTBG, RESET);
+        printf("\t%s[0]%s - Voltar.\n", WHTBG, RESET);
         printf("\t=======================================\n");
         printf("\nDigite a opção a seguir: ");
         if (scanf("%d", &opc) != 1)
@@ -358,7 +358,7 @@ void incluirLocacoes()
     FILE *arquivoEntrada = fopen(caminhoArquivoEntrada, "r");
     if (arquivoEntrada == NULL)
     {
-        printf("\t%s%sERRO%s%s: Arquivo %snão%s encontrado", REDFG, BLINK, BLINKS, RESET, REDFG, RESET);
+        printf("%s%sERRO%s%s: Arquivo %snão%s encontrado", REDFG, BLINK, BLINKS, RESET, REDFG, RESET);
         pontinhos();
         return;
     }
@@ -374,7 +374,7 @@ void incluirLocacoes()
 
     if (arquivoTotais == NULL)
     {
-        printf("\t%s%sERRO%s: %sNão%s foi possível abrir o arquivo de todos os cadastros", REDFG, BLINK, BLINKS, RESET, REDFG, RESET);
+        printf("%s%sERRO%s%s: %sNão%s foi possível abrir o arquivo de todos os cadastros", REDFG, BLINK, BLINKS, RESET, REDFG, RESET);
         pontinhos();
         fclose(arquivoEntrada);
         fclose(arquivoConfirmacao);
@@ -464,7 +464,7 @@ void incluirLocacoes()
             else
             {
                 //? Caso não consiga alocar a memória
-                printf("\t%s%sERRO%s: %sNão%s foi possível alocar memória", REDFG, BLINK, BLINKS, RESET, REDFG, RESET);
+                printf("%s%sERRO%s%s: %sNão%s foi possível alocar memória", REDFG, BLINK, BLINKS, RESET, REDFG, RESET);
                 pontinhos();
                 fclose(arquivoEntrada);
                 fclose(arquivoConfirmacao);
@@ -589,7 +589,7 @@ void menuCarros()
         printf("\t========== %sCARROS%s ==========\n", BLUFG, RESET);
         printf("\t%s[1]%s - Vizualizar Cadastros.\n", WHTBG, RESET);
         printf("\t%s[2]%s - Incluir Cadastros.\n", WHTBG, RESET);
-        printf("\t%s[3]%s - Voltar.\n", WHTBG, RESET);
+        printf("\t%s[0]%s - Voltar.\n", WHTBG, RESET);
         printf("\t============================\n");
         printf("\nDigite a opção a seguir: ");
         if (scanf("%d", &opc) != 1)
@@ -851,7 +851,7 @@ void incluirClientes()
     FILE *arquivoEntrada = fopen(caminhoArquivoEntrada, "r");
     if (arquivoEntrada == NULL)
     {
-        printf("\t%s%sERRO%s%s: Arquivo %snão%s encontrado", REDFG, BLINK, BLINKS, RESET, REDFG, RESET);
+        printf("%s%sERRO%s%s: Arquivo %snão%s encontrado", REDFG, BLINK, BLINKS, RESET, REDFG, RESET);
         pontinhos();
         return;
     }
@@ -864,7 +864,7 @@ void incluirClientes()
     FILE *arquivoTodosCadastros = fopen("txt/CadastrosTotais/todos_os_clientes.txt", "a");
     if (arquivoTodosCadastros == NULL)
     {
-        printf("\t%s%sERRO%s%s: %sNão%s foi possível abrir o arquivo de todos os cadastros", REDFG, BLINK, BLINKS, RESET, REDFG, RESET);
+        printf("%s%sERRO%s%s: %sNão%s foi possível abrir o arquivo de todos os cadastros", REDFG, BLINK, BLINKS, RESET, REDFG, RESET);
         pontinhos();
         fclose(arquivoEntrada);
         fclose(arquivoConfirmacao);
