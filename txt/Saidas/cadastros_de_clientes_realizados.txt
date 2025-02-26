@@ -1,5 +1,12 @@
 =======Cadastros Realizados Com Sucesso======
 
+Cliente 4:
+Nome: ciao
+Telefone: 5684684
+Endereco: ksuihbs
+CPF: 35161354
+-----------------------------
+
 Cliente 3:
 Nome: José
 Telefone: (42) 9984-2578

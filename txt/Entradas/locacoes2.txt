@@ -1,6 +1,6 @@
-2
-2
-199.90
-01/03/2025
-15/03/2025
-Ativa
+Codigo do carro: 2
+Codigo do cliente: 2
+Valor da locacao: 40.50
+Data da locacao: 26/2/2025
+Data de devolucao: 15/13/2025
+Status: Ativa

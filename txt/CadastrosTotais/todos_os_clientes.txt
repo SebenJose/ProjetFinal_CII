@@ -1,39 +1,15 @@
-Cliente 1:
 Nome: caio feio
 Telefone: (45)998436044
 Endereco: Sao clemente
 CPF: 198.669.071-81
------------------------------
-
-Cliente 2:
 Nome: jose Lindo
 Telefone: 626852
 Endereco: 66522
 CPF: 6846816
------------------------------
-
-Cliente 3:
 Nome: andressa
 Telefone: 35464264616
 Endereco: sao clemente
-CPF: 6465656
------------------------------
-
-Cliente 1:
-Nome: andressa
-Telefone: 35464264616
-Endereco: sao clemente
-CPF: 6465656
------------------------------
-
-Cliente 2:
-Nome: ciao
-Telefone: 5684684
-Endereco: ksuihbs
-CPF: 35161354
------------------------------
-
-Cliente 1:
+CPF: 6465656Cliente 4:
 Nome: ciao
 Telefone: 5684684
 Endereco: ksuihbs
